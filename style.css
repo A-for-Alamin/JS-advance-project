@@ -1,0 +1,150 @@
+.bg{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1041%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='15.535' cx='1366.32' cy='484.74' fill='url(%26quot%3b%23SvgjsLinearGradient1042%26quot%3b)'%3e%3c/circle%3e%3ccircle r='52.285' cx='1050' cy='504.55' fill='url(%26quot%3b%23SvgjsLinearGradient1043%26quot%3b)'%3e%3c/circle%3e%3ccircle r='37.105' cx='162.67' cy='319.03' fill='%2343468b'%3e%3c/circle%3e%3ccircle r='42.205' cx='816.39' cy='171.19' fill='url(%26quot%3b%23SvgjsLinearGradient1044%26quot%3b)'%3e%3c/circle%3e%3ccircle r='43.055' cx='1005.44' cy='212.74' fill='url(%26quot%3b%23SvgjsLinearGradient1045%26quot%3b)'%3e%3c/circle%3e%3ccircle r='36.99' cx='247.17' cy='479.12' fill='url(%26quot%3b%23SvgjsLinearGradient1046%26quot%3b)'%3e%3c/circle%3e%3ccircle r='40.415' cx='759.87' cy='62.5' fill='url(%26quot%3b%23SvgjsLinearGradient1047%26quot%3b)'%3e%3c/circle%3e%3ccircle r='51.525' cx='1412.92' cy='249.23' fill='url(%26quot%3b%23SvgjsLinearGradient1048%26quot%3b)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1041'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='1335.25' y1='484.74' x2='1397.39' y2='484.74' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='945.4300000000001' y1='504.55' x2='1154.5700000000002' y2='504.55' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='731.98' y1='171.19' x2='900.8' y2='171.19' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='919.33' y1='212.74' x2='1091.55' y2='212.74' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='173.19' y1='479.12' x2='321.15' y2='479.12' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='679.04' y1='62.5' x2='840.6999999999999' y2='62.5' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1047'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1309.8700000000001' y1='249.23000000000002' x2='1515.97' y2='249.23000000000002' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1048'%3e%3cstop stop-color='%23ab3c51' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%234f4484' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
+.box-style{
+    box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
+            10px 10px 70px rgba(0, 0, 0, 0.25),
+            inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+            inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+            inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+}
+
+
+.scrollbar::-webkit-scrollbar{
+    width: .4vw;
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #bd3ff7;
+    border-radius: 10px;
+}
+
+
+.slider-thumb::-webkit-slider-thumb {
+    appearance: none;
+    height: 6px;
+    width: 6px;
+    background: #D68D7F;
+    border-radius: 50%;
+    box-shadow: -703px -0px 0px 700px #D68D7F;
+}
+
+
+
+li{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(to right, #BD84C9, #675698);
+    border-radius: 5px;
+    position: relative;
+
+    & span:first-child{
+        width: 80%;
+        padding: 10px;
+        overflow-x: scroll;
+
+        & p{
+            font-size: 1.1rem;
+        }
+    }
+
+    & span:last-child{
+        position: absolute;
+        right: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+
+        & i{
+            cursor: pointer;
+            padding: 10px;
+        }
+    }
+}
+
+li.completed{
+    background: linear-gradient(to right, #6c6e70, #afb1b4ee);
+    color: #fff;
+}
+
+li.completed p {
+    text-decoration: line-through;
+}
+
+
+/* Notification style */
+.toast {
+    width: 22rem;
+    height: 4rem;
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.3);
+    transform: translateY(-180%);
+    translate: -50%;
+    animation: movetop .5s linear forwards;
+    
+    i {
+        margin: 0 20px;
+        font-size: 25px;
+        color: orange;
+    }
+}
+@keyframes movetop {
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Edit Div Style  */
+.newInput {
+    width: 22rem;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: grid;
+    gap: 10px;
+    position: absolute;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    & label{
+        color: #fff;
+        font-weight: 600;
+        background-color: #2f363e;
+        padding: 10px;
+    }
+
+    & input{
+        border: 1px solid #D68D7F;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        width: 90%;
+        font-size: 17px;
+        justify-self: center;
+    }
+
+    & button{
+        border: 2px solid #D68D7F;
+        outline: none;
+        padding: 8px;
+        border-radius: 5px;
+        width: 40%;
+        justify-self: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

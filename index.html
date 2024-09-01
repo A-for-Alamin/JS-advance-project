@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome To-Do List</title>
+
+    <!-- FontAwesome Icon -->
+    <script src="https://kit.fontawesome.com/98dfd6ea50.js" crossorigin="anonymous"></script>
+    
+    <!-- GoogleFont CDN Link -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pirata+One&display=swap"rel="stylesheet">
+
+    <!-- Tailwind Css CDN Link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Style Page Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-screen 
+            flex 
+            justify-center 
+            items-center 
+            bg-center 
+            bg-no-repeat 
+            bg-cover 
+            
+            lg:justify-start
+            lg:ms-96
+
+            bg">
+
+
+    <div class="container w-[27rem]">
+        <div class="w-11/12 mx-auto rounded-lg py-8 px-10 bg-[#2f363e] box-style">
+            
+            <h2 class="text-center text-white text-3xl"style='font-family:"Pirata One",system-ui;'>Awesome To-Do List</h2>
+
+            <div class="
+            w-full 
+            mb-5
+            mt-8
+            flex 
+            bg-white 
+            rounded-full 
+            overflow-hidden 
+            relative">
+
+                <input type="text" id="input-text" placeholder="Add Your Task..." class="
+                py-2 
+                px-3 
+                text-base 
+                w-full 
+                border-0 
+                outline-0">
+
+                <button id="add-task-btn" class="
+                py-2
+                px-7 
+                bg-green-500
+                rounded-full 
+                border-0 
+                outline-0 
+                absolute 
+                top-0 
+                right-0
+                font-extrabold
+                cursor-pointer
+                "><i class="fa fa-plus"></i></button>
+
+            </div>
+
+
+            <label for="task" class="text-white p-2.5 text-lg">Task</label>
+            <ul id="task-content" class="
+            p-2.5
+            w-full
+            min-h-40
+            max-h-60
+            bg-white
+            rounded-md
+            overflow-y-scroll
+            relative
+            shadow-[0_-15px_20px_rgba(0,0,0,0.3)_inset]
+            scrollbar
+            ">
+            
+            </ul>
+
+
+
+
+            <div class="w-full rounded-md p-2.5 mt-5 border-solid border border-sky-300" id="progress-div">
+
+                <input type="range" id="progress" value="0" disabled class="
+                w-full
+                appearance-none
+                h-1.5
+                rounded-full
+                bg-slate-700
+                overflow-hidden
+                slider-thumb
+                ">
+
+                <div class="flex w-full justify-between mt-2 text-lg text-white text-center" style='font-family:"EB Garamond",serif;'>
+
+                <div>
+                    <p>Total</p>
+                    <b id="total-count">0</b>
+                </div>
+                <div>
+                    <p>Compelet</p>
+                    <b id="complete-count">0</b>
+                </div>
+                <div>
+                    <p>Incompelet</p>
+                    <b id="incomplete-count">0</b>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
